@@ -5,6 +5,7 @@ from ovos_utils.ocp import MediaType, PlaybackType
 from ovos_workshop.decorators import ocp_search
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from pyradios import RadioBrowser
+from rapidfuzz.distance import DamerauLevenshtein
 
 
 class PyradiosSkill(OVOSCommonPlaybackSkill):
@@ -35,7 +36,7 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         queries.append(phrase)
         for query in queries:
             for ch in self.radio_browser.search(name=query):
-                score = base_score + int(ch["name"] in query) * 80
+                score = base_score + int(DamerauLevenshtein.normalized_similarity(ch["name"], query) * 80)
                 yield {
                     "match_confidence": min(100, score),
                     "media_type": MediaType.RADIO,
