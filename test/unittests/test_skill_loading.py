@@ -10,7 +10,7 @@ from mycroft.skills.skill_loader import PluginSkillLoader, SkillLoader
 class TestSkillLoading(unittest.TestCase):
     @classmethod
     def setUpClass(self):
-        self.skill_id = "skill-ovos-tunein.openvoiceos"
+        self.skill_id = "skill-ovos-pyradios.femelo"
         self.path = dirname(dirname(dirname(__file__)))
 
     def test_from_class(self):

@@ -10,7 +10,7 @@ from pyradios import RadioBrowser
 class PyradiosSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         super().__init__(supported_media = [MediaType.RADIO],
-                         skill_icon=join(dirname(__file__), "res", "tunein.png"),
+                         skill_icon=join(dirname(__file__), "res", "radio-tuner.png"),
                          *args, **kwargs)
         self.radio_browser = RadioBrowser()
 
@@ -24,9 +24,10 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         else:
             base_score -= 30
 
-        if self.voc_match(phrase, "tunein"):
-            base_score += 50  # explicit request
-            phrase = self.remove_voc(phrase, "tunein")
+        for match in ["pyradios", "pyradio"]:
+            if self.voc_match(phrase, match):
+                base_score += 50  # explicit request
+                phrase = self.remove_voc(phrase, match)
 
         queries = []
         if "radio" in phrase:
