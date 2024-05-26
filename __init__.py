@@ -35,7 +35,7 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         queries.append(phrase)
         for query in queries:
             for ch in self.radio_browser.search(name=query):
-                score = base_score + int(ch["name"] in phrase) * 80
+                score = base_score + int(ch["name"] in query) * 80
                 yield {
                     "match_confidence": min(100, score),
                     "media_type": MediaType.RADIO,
