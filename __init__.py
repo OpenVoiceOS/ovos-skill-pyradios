@@ -24,10 +24,9 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         else:
             base_score -= 30
 
-        for match in ["pyradios", "pyradio"]:
-            if self.voc_match(phrase, match):
-                base_score += 50  # explicit request
-                phrase = self.remove_voc(phrase, match)
+        if self.voc_match(phrase, "pyradios"):
+            base_score += 50  # explicit request
+            phrase = self.remove_voc(phrase, "pyradios")
 
         queries = []
         if "radio" in phrase:
