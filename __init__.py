@@ -2,6 +2,7 @@ from os.path import join, dirname
 from typing import Generator
 
 from ovos_utils.ocp import MediaType, PlaybackType
+from ovos_utils.log import LOG
 from ovos_workshop.decorators import ocp_search
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from pyradios import RadioBrowser
@@ -37,6 +38,7 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         for query in queries:
             for ch in self.radio_browser.search(name=query):
                 score = base_score + int(DamerauLevenshtein.normalized_similarity(ch["name"], query) * 80)
+                LOG.debug(f"Query: {query}, match: {ch['name']}, score: {score}")
                 yield {
                     "match_confidence": min(100, score),
                     "media_type": MediaType.RADIO,
