@@ -1,0 +1,18 @@
+{
+    "radio.voc": [
+        "radio",
+        "Internetradio"
+    ],
+    "pyradios.voc": [
+        "p\u00e5 st\u00e4mma in",
+        "i st\u00e4mma i",
+        "Pyradio",
+        "Pyradios",
+        "st\u00e4mma in",
+        "p\u00e5 (pyradio|pyradios)",
+        "i (pyradio|pyradios)",
+        "p\u00e5 (pyradio|pyradios)",
+        "i (pyradio|pyradios)",
+        "vid st\u00e4mma in"
+    ]
+}

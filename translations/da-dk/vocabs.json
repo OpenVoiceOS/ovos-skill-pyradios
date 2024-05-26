@@ -1,0 +1,9 @@
+{
+    "radio.voc": [
+        "Radio",
+        "Internetradio"
+    ],
+    "pyradios.voc": [
+        "(p\u00e5|i|) (pyradio|pyradios)"
+    ]
+}

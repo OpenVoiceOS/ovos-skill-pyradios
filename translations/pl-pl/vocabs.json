@@ -1,0 +1,9 @@
+{
+    "radio.voc": [
+        "radio",
+        "radio internetowe"
+    ],
+    "pyradios.voc": [
+        "(na|w|przy|) (pyradio|pyradios)"
+    ]
+}

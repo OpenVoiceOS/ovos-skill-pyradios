@@ -1,0 +1,11 @@
+{
+    "radio.voc": [
+        "radio",
+        "internet radio"
+    ],
+    "pyradios.voc": [
+        "pyradio",
+        "pyradios",
+        "(mit|auf|per) (pyradio|pyradios)"
+    ]
+}

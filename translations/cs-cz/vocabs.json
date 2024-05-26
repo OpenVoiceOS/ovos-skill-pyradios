@@ -1,0 +1,15 @@
+{
+    "radio.voc": [
+        "internetov\u00e9 r\u00e1dio",
+        "r\u00e1dio"
+    ],
+    "pyradios.voc": [
+        "v s\u00edti (pyradio|pyradios)",
+        "pyradio",
+        "pyradios",
+        "v (pyradio|pyradios)",
+        "o nalad\u011bn\u00ed",
+        "v aplikaci (pyradio|pyradios)",
+        "u spole\u010dnosti (pyradio|pyradios)"
+    ]
+}
