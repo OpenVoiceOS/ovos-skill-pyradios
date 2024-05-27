@@ -11,7 +11,7 @@ OCP skill for [Pyradios](https://github.com/andreztz/pyradios), a client for the
 
 ## Credits
 
--[Pyradios](https://github.com/andreztz/pyradios)
+* [Pyradios](https://github.com/andreztz/pyradios)
 
 ## Category
 
