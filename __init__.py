@@ -17,7 +17,7 @@ DEFAULT_CACHE_PATH = os.path.join(BASE_DIR, ".cache", "pyradios")
 class PyradiosSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         super().__init__(supported_media = [MediaType.RADIO],
-                         skill_icon=os.path.join(os.path.dirname(__file__), "res", "radio-tuner.png"),
+                         skill_icon=os.path.join(os.path.dirname(__file__), "res", "radio-tuner-small.png"),
                          *args, **kwargs)
         self.cache = SimpleCache(file_path=DEFAULT_CACHE_PATH, open=True)
         self.radio_browser = RadioBrowser()
