@@ -16,10 +16,17 @@ DEFAULT_CACHE_PATH = os.path.join(BASE_DIR, ".cache", "pyradios")
 
 class PyradiosSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
-        super().__init__(supported_media = [MediaType.RADIO],
-                         skill_icon=os.path.join(os.path.dirname(__file__), "res", "radio-tuner-small.png"),
-                         *args, **kwargs)
-        self.cache = SimpleCache(file_path=DEFAULT_CACHE_PATH, open=True)
+        super().__init__(
+            supported_media = [MediaType.RADIO],
+            skill_icon=os.path.join(
+                os.path.dirname(__file__),
+                "res",
+                "radio-tuner-small.png"
+            ),
+            *args,
+            **kwargs
+        )
+        self.cache = SimpleCache(file_path=DEFAULT_CACHE_PATH, open=False)
         self.radio_browser = RadioBrowser()
 
     def __del__(self):
@@ -51,6 +58,8 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
 
     def search(self, query: str) -> list:
         """General search method."""
+        # NOTE: make the cache persistent
+        self.cache.open()
         # Search for cached items
         cached_items = self.search_cache(query)
         if cached_items:
@@ -61,6 +70,8 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
             # Update cache
             for station in filter(lambda s: s["name"] != '', stations):
                 self.cache.add(key=query, data=station)
+        # NOTE: make the cache persistent
+        self.cache.close()
         return stations
 
     @ocp_search()
