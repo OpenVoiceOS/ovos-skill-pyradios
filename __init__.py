@@ -10,8 +10,7 @@ from dead_simple_cache import SimpleCache
 from rapidfuzz.distance import DamerauLevenshtein
 
 
-BASE_DIR = os.getenv("HOME") or os.path.dirname(os.path.abspath(__file__))
-DEFAULT_CACHE_PATH = os.path.join(BASE_DIR, ".cache", "pyradios")
+RELATIVE_CACHE_PATH = os.path.join("cache", "pyradios")
 
 
 class PyradiosSkill(OVOSCommonPlaybackSkill):
@@ -26,7 +25,10 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
             *args,
             **kwargs
         )
-        self.cache = SimpleCache(file_path=DEFAULT_CACHE_PATH, open=False)
+        self.cache = SimpleCache(
+            file_path=os.path.join(self.file_system.path, RELATIVE_CACHE_PATH),
+            open=False
+        )
         self.radio_browser = RadioBrowser()
 
     def __del__(self):
