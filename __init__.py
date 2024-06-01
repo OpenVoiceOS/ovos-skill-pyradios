@@ -2,7 +2,7 @@ import os
 from typing import Generator
 
 from ovos_utils.ocp import MediaType, PlaybackType
-# from ovos_utils.log import LOG
+from ovos_utils.log import LOG
 from ovos_workshop.decorators import ocp_search
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from pyradios import RadioBrowser
@@ -25,10 +25,9 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
             *args,
             **kwargs
         )
-        self.cache = SimpleCache(
-            file_path=os.path.join(self.file_system.path, RELATIVE_CACHE_PATH),
-            open=False
-        )
+        file_path = os.path.join(self.file_system.path, RELATIVE_CACHE_PATH)
+        LOG.info(f"Pyradios cache located at: {file_path}.db")
+        self.cache = SimpleCache(file_path=file_path, open=False)
         self.radio_browser = RadioBrowser()
 
     def __del__(self):
