@@ -4,6 +4,6 @@
         "radio internet"
     ],
     "pyradios.voc": [
-        "(avec|dans|au|\u00e0) (pyradio|pyradios)"
+        "(avec|dans|sur|) (pyradio|pyradios)"
     ]
 }

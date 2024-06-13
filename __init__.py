@@ -64,8 +64,10 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         # Search for cached items
         cached_items = self.search_cache(query)
         if cached_items:
+            LOG.debug("Pyradios: found relevant cached items")
             stations = cached_items
         else:
+            LOG.debug(f"Pyradios: performing new radio search for '{query}'")
             # Search again
             stations = self.radio_browser.search(name=query, hidebroken=True)
             # Update cache
@@ -85,9 +87,10 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         else:
             base_score -= 30
 
-        if self.voc_match(phrase, "pyradios"):
-            base_score += 50  # explicit request
-            phrase = self.remove_voc(phrase, "pyradios")
+        for voc_filename in ["pyradios", "radio"]:
+            if self.voc_match(phrase, voc_filename):
+                base_score += 50  # explicit request
+                phrase = self.remove_voc(phrase, voc_filename).strip()
 
         queries = []
         if "radio" in phrase:
@@ -96,7 +99,7 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         queries.append(phrase)
         for query in queries:
             for ch in self.search(query=query):
-                score = base_score + int(DamerauLevenshtein.normalized_similarity(ch["name"], query) * 80)
+                score = base_score + int(DamerauLevenshtein.normalized_similarity(ch["name"], query) * 100)
                 # LOG.debug(f"Query: {query}, match: {ch['name']}, score: {score}")
                 yield {
                     "match_confidence": min(100, score),
