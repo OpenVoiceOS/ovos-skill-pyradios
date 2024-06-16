@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 from typing import Generator
 
@@ -9,6 +10,25 @@ from pyradios import RadioBrowser
 from dead_simple_cache import SimpleCache
 from rapidfuzz.distance import DamerauLevenshtein
 
+
+KEYWORD_SAMPLES = {
+    "en-us": "radio",
+    "es-es": "radio",
+    "ca-es": "radio",
+    "fr-fr": "radio",
+    "it-it": "radio",
+    "pt-pt": "rádio",
+    "pt-br": "rádio",
+    "de-de": "radio",
+    "nl-nl": "radio",
+    "pl-pl": "radio",
+    "hu-hu": "radio",
+    "cs-cz": "rádio",
+    "da-dk": "radio",
+    "sv-se": "radio",
+    "sv-fi": "radiota",
+    "ru-ru": "радио",
+}
 
 RELATIVE_CACHE_PATH = os.path.join("cache", "pyradios")
 
@@ -29,6 +49,13 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         LOG.info(f"Pyradios cache located at: {file_path}.db")
         self.cache = SimpleCache(file_path=file_path, open=False)
         self.radio_browser = RadioBrowser()
+        # Register keywords to enforce correct media type classification
+        self.register_ocp_keyword(
+            media_type=MediaType.RADIO,
+            label="radio_streaming_service",
+            samples=list(set(KEYWORD_SAMPLES.values())),
+            langs=list(KEYWORD_SAMPLES.keys())
+        )
 
     def __del__(self):
         # Makes cache persistent on disk
