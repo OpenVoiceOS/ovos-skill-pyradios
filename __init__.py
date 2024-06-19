@@ -114,16 +114,22 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
         else:
             base_score -= 30
 
+        queries = []
         for voc_filename in ["pyradios", "radio"]:
             if self.voc_match(phrase, voc_filename):
                 base_score += 50  # explicit request
                 phrase = self.remove_voc(phrase, voc_filename).strip()
+            if phrase not in queries:
+                # Save queries with and without radio vocabulary
+                queries.append(phrase)
 
-        queries = []
+        # if "radio" still in phrase, also add the query without it
         if "radio" in phrase:
-            phrase_without_radio = ' '.join(phrase.replace('radio', '').split())
+            phrase_without_radio = ' '.join(
+                phrase.replace('radio', '').split()
+            )
             queries.append(phrase_without_radio)
-        queries.append(phrase)
+
         for query in queries:
             for ch in self.search(query=query):
                 score = base_score + int(DamerauLevenshtein.normalized_similarity(ch["name"], query) * 100)
