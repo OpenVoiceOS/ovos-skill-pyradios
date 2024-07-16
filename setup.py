@@ -3,7 +3,7 @@ from setuptools import setup
 import os
 from os import walk, path
 
-URL = 'https://github.com/femelo/skill-ovos-pyradios'
+URL = 'https://github.com/OpenVoiceOS/ovos-skill-pyradios'
 SKILL_CLAZZ = "PyradiosSkill"  # needs to match __init__.py class name
 PYPI_NAME = "ovos-skill-pyradios"  # pip install PYPI_NAME
 
