@@ -42,6 +42,7 @@ class PyradiosSkill(OVOSCommonPlaybackSkill):
                 "res",
                 "radio-tuner-small.png"
             ),
+            skill_voc_filename="pyradios",
             *args,
             **kwargs
         )
