@@ -1,0 +1,3 @@
+[ovos.plugin.skill]
+ovos-skill-pyradios.openvoiceos=ovos_skill_pyradios:PyradiosSkill
+
