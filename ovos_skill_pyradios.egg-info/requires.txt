@@ -1,6 +1,0 @@
-ovos-utils>=0.1.0a7
-ovos-bus-client>=0.0.9a1
-ovos-workshop>=0.0.16a43
-pyradios
-dead-simple-cache>=1.2.2
-rapidfuzz
