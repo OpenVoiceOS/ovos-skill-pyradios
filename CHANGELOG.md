@@ -1,11 +1,12 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/HEAD)
+## [0.1.2a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.2a2) (2024-10-15)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.0...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.0...0.1.2a2)
 
 **Merged pull requests:**
 
+- fix long desciption [\#7](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/7) ([JarbasAl](https://github.com/JarbasAl))
 - automations [\#6](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/6) ([JarbasAl](https://github.com/JarbasAl))
 
 
