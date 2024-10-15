@@ -1,9 +1,11 @@
 {
-    "radio.voc": [
-        "radio por internet",
-        "radio"
-    ],
-    "pyradios.voc": [
-        "(en|) (pyradio|pyradios)"
-    ]
+  "radio.voc": [
+    "ràdio per internet\nràdio",
+    "ràdio"
+  ],
+  "pyradios.voc": [
+    "(en|a|) (pyradio|pyradios|pi ràdio|pi ràdios)",
+    "pyradios\npi ràdios",
+    "(en|a|) (pyradio|pyradios|pi ràdio|pi ràdios)"
+  ]
 }
