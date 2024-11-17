@@ -1,16 +1,16 @@
 # Changelog
 
-## [0.1.3a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.3a1) (2024-10-31)
+## [0.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.4a1) (2024-11-17)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.2...0.1.3a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.3...0.1.4a1)
 
 **Merged pull requests:**
 
-- fix:allow workshop 3.0.0 [\#8](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/8) ([JarbasAl](https://github.com/JarbasAl))
+- fix: skilljson [\#10](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/10) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.1.2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.2) (2024-10-15)
+## [V0.1.3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.3) (2024-11-01)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.2...V0.1.2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.3...V0.1.3)
 
 
 
