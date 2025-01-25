@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a2) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a1...0.1.5a2)
+
+**Merged pull requests:**
+
+- fix automations [\#13](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a1) (2024-12-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.4...0.1.5a1)
