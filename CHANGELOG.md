@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.5a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a4) (2025-06-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a3...0.1.5a4)
+
 ## [0.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a3) (2025-06-08)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a2...0.1.5a3)
@@ -18,15 +22,11 @@
 
 ## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a1) (2024-12-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.4...0.1.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4...0.1.5a1)
 
 **Merged pull requests:**
 
 - import basque translations [\#12](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/12) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.1.4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.4) (2024-11-19)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4...V0.1.4)
 
 
 
