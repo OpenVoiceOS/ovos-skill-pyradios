@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a3) (2025-06-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a2...0.1.5a3)
+
+**Merged pull requests:**
+
+- fix: allow workshop 7.X.X [\#14](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/14) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a2) (2025-01-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a1...0.1.5a2)
