@@ -1,24 +1,32 @@
 # Changelog
 
-## [0.1.4a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.4a2) (2024-11-19)
+## [0.1.5a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a4) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4a1...0.1.4a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a3...0.1.5a4)
 
-**Merged pull requests:**
+## [0.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a3) (2025-06-08)
 
-- fix:allow workshop 3.0.0 [\#11](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/11) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.4a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.4a1) (2024-11-17)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.3...0.1.4a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a2...0.1.5a3)
 
 **Merged pull requests:**
 
-- fix: skilljson [\#10](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/10) ([JarbasAl](https://github.com/JarbasAl))
+- fix: allow workshop 7.X.X [\#14](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/14) ([JarbasAl](https://github.com/JarbasAl))
 
-## [V0.1.3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.3) (2024-11-01)
+## [0.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a2) (2025-01-25)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.3...V0.1.3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a1...0.1.5a2)
+
+**Merged pull requests:**
+
+- fix automations [\#13](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a1) (2024-12-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4...0.1.5a1)
+
+**Merged pull requests:**
+
+- import basque translations [\#12](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/12) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
