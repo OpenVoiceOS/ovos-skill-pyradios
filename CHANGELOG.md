@@ -1,32 +1,20 @@
 # Changelog
 
-## [0.1.5a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a4) (2025-06-08)
+## [0.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a3...0.1.5a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.5...0.1.6a1)
 
-## [0.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a3) (2025-06-08)
+**Closed issues:**
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a2...0.1.5a3)
-
-**Merged pull requests:**
-
-- fix: allow workshop 7.X.X [\#14](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/14) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a2) (2025-01-25)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a1...0.1.5a2)
+- AttributeError: 'PyradiosSkill' object has no attribute 'cache' [\#16](https://github.com/OpenVoiceOS/ovos-skill-pyradios/issues/16)
 
 **Merged pull requests:**
 
-- fix automations [\#13](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+- chore: Configure Renovate [\#17](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
 
-## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a1) (2024-12-02)
+## [V0.1.5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.5) (2025-06-08)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4...0.1.5a1)
-
-**Merged pull requests:**
-
-- import basque translations [\#12](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5...V0.1.5)
 
 
 
