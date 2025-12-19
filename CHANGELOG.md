@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a2...0.1.6a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency ovos-workshop to v8 [\#23](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.1.6a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a1...0.1.6a2)
