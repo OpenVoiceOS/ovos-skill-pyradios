@@ -2,7 +2,7 @@
   "skill_id": "ovos-skill-pyradios.openvoiceos",
   "source": "https://github.com/OpenVoiceOS/ovos-skill-pyradios",
   "name": "Pyradios",
-  "description": "Un client pour l'API Radio Browser.",
+  "description": "Permet d'écouter des radios du monde entier via Radio Browser.",
   "examples": [
     "Joue TSF Jazz Radio",
     "Joue TSF Jazz sur Pyradios"
