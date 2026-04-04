@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.6a5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a5) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a4...0.1.6a5)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#27](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#26](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/26) ([JarbasAl](https://github.com/JarbasAl))
+- Add French marketplace metadata [\#25](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/25) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a4) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a3...0.1.6a4)
@@ -27,10 +37,6 @@
 ## [0.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a1) (2025-12-18)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5...0.1.6a1)
-
-**Closed issues:**
-
-- AttributeError: 'PyradiosSkill' object has no attribute 'cache' [\#16](https://github.com/OpenVoiceOS/ovos-skill-pyradios/issues/16)
 
 **Merged pull requests:**
 
