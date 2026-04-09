@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6a6](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a6) (2026-04-09)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a5...0.1.6a6)
+
+**Merged pull requests:**
+
+- chore\(ovos-skill-pyradios\): allow ovos-workshop\<9.0.0 [\#29](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/29) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.6a5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a5) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a4...0.1.6a5)
@@ -36,11 +44,15 @@
 
 ## [0.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a1) (2025-12-18)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5...0.1.6a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.5...0.1.6a1)
 
 **Merged pull requests:**
 
 - chore: Configure Renovate [\#17](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [V0.1.5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.5) (2025-06-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5...V0.1.5)
 
 
 
