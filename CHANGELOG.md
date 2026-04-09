@@ -1,32 +1,58 @@
 # Changelog
 
-## [0.1.5a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a4) (2025-06-08)
+## [0.1.6a6](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a6) (2026-04-09)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a3...0.1.5a4)
-
-## [0.1.5a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a3) (2025-06-08)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a2...0.1.5a3)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a5...0.1.6a6)
 
 **Merged pull requests:**
 
-- fix: allow workshop 7.X.X [\#14](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/14) ([JarbasAl](https://github.com/JarbasAl))
+- chore\(ovos-skill-pyradios\): allow ovos-workshop\<9.0.0 [\#29](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/29) ([JarbasAl](https://github.com/JarbasAl))
 
-## [0.1.5a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a2) (2025-01-25)
+## [0.1.6a5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a5) (2026-04-04)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5a1...0.1.5a2)
-
-**Merged pull requests:**
-
-- fix automations [\#13](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/13) ([JarbasAl](https://github.com/JarbasAl))
-
-## [0.1.5a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.5a1) (2024-12-02)
-
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.4...0.1.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a4...0.1.6a5)
 
 **Merged pull requests:**
 
-- import basque translations [\#12](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+- ci: modernize GitHub workflows [\#27](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#26](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/26) ([JarbasAl](https://github.com/JarbasAl))
+- Add French marketplace metadata [\#25](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/25) ([goldyfruit](https://github.com/goldyfruit))
+
+## [0.1.6a4](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a4) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a3...0.1.6a4)
+
+**Merged pull requests:**
+
+- chore\(deps\): update stefanzweifel/git-auto-commit-action action to v7 [\#24](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.6a3](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a2...0.1.6a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency ovos-workshop to v8 [\#23](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.6a2](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a2) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a1...0.1.6a2)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#18](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/18) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.1.6a1](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a1) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/V0.1.5...0.1.6a1)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#17](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [V0.1.5](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/V0.1.5) (2025-06-08)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.5...V0.1.5)
 
 
 
