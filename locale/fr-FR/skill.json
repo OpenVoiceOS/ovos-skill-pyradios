@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-pyradios.openvoiceos",
+  "source": "https://github.com/OpenVoiceOS/ovos-skill-pyradios",
+  "name": "Pyradios",
+  "description": "Permet d'écouter des radios du monde entier via Radio Browser.",
+  "examples": [
+    "Joue TSF Jazz Radio",
+    "Joue TSF Jazz sur Pyradios"
+  ],
+  "tags": [
+    "média",
+    "musique",
+    "divertissement",
+    "OCP"
+  ]
+}
