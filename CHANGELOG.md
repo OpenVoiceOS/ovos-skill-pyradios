@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6a8](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a8) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a7...0.1.6a8)
+
+**Merged pull requests:**
+
+- docs: deprecation notice — superseded by MediaProvider plugins [\#31](https://github.com/OpenVoiceOS/ovos-skill-pyradios/pull/31) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.1.6a7](https://github.com/OpenVoiceOS/ovos-skill-pyradios/tree/0.1.6a7) (2026-07-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-pyradios/compare/0.1.6a6...0.1.6a7)
