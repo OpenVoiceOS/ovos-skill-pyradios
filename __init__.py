@@ -3,12 +3,14 @@ import os
 from typing import Generator
 
 from ovos_utils.ocp import MediaType, PlaybackType
-from ovos_utils.log import LOG
+from ovos_utils.log import LOG, log_deprecation
 from ovos_workshop.decorators import ocp_search
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from pyradios import RadioBrowser
 from dead_simple_cache import SimpleCache
 from rapidfuzz.distance import DamerauLevenshtein
+
+from version import VERSION_MAJOR
 
 
 KEYWORD_SAMPLES = {
@@ -35,6 +37,11 @@ RELATIVE_CACHE_PATH = os.path.join("cache", "pyradios")
 
 class PyradiosSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
+        log_deprecation("ovos-skill-pyradios is deprecated and will be replaced "
+                         "by ovos-media-provider-pyradios once the OCP pipeline's "
+                         "MediaProvider dispatch becomes the default search path "
+                         "— install that MediaProvider plugin instead",
+                         deprecation_version=f"{VERSION_MAJOR + 1}.0.0")
         super().__init__(
             supported_media = [MediaType.RADIO],
             skill_icon=os.path.join(
